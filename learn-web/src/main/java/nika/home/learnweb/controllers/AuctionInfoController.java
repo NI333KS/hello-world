@@ -26,6 +26,7 @@ public class AuctionInfoController {
     public String testMethod(@RequestParam String name, @RequestParam int age) {
         System.out.println(name);
         System.out.println(age);
+        
         return "Hello World";
         
     }
